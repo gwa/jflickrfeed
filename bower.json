@@ -1,0 +1,24 @@
+{
+  "name": "jflickrfeed",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gwa/jflickrfeed",
+  "authors": [
+    "Joel Sutherland",
+    "Timothy Groves <groves@greatwhiteark.com>"
+  ],
+  "description": "jQuery Flickr feed plugin",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "package.json",
+    "grunt",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.*"
+  }
+}

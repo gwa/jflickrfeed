@@ -1,0 +1,20 @@
+{
+  "name": "jflickrfeed",
+  "version": "1.0.0",
+  "description": "jQuery Flickr feed plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwa/jflickrfeed.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gwa/jflickrfeed/issues"
+  },
+  "homepage": "https://github.com/gwa/jflickrfeed",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jscs-checker": "^0.4.1",
+    "grunt-contrib-uglify": "^0.4.0"
+  }
+}

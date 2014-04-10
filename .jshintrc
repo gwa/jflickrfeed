@@ -1,0 +1,17 @@
+{
+    "curly": true,
+
+    "eqeqeq": true,
+
+    "nonbsp": true,
+
+    "quotmark": "single",
+
+    "undef": true,
+
+    "unused": true,
+
+    "browser": true,
+
+    "jquery": true
+}

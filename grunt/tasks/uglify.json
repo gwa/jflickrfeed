@@ -1,0 +1,14 @@
+{
+  "options": {
+    "report": "min",
+    "preserveComments": "some",
+    "sourceMap": true
+  },
+  "dist": {
+    "files" : {
+      "dist/jquery.jflickrfeed.min.js": [
+        "src/jquery.jflickrfeed.js"
+      ]
+    }
+  }
+}
