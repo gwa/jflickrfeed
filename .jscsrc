@@ -47,23 +47,6 @@
     "<",
     "<="
   ],
-  "disallowLeftStickedOperators": [
-    "?",
-    "+",
-    "-",
-    "/",
-    "*",
-    "=",
-    "==",
-    "===",
-    "!=",
-    "!==",
-    ">",
-    ">=",
-    "<",
-    "<="
-  ],
-  "requireRightStickedOperators": ["!"],
   "disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
   "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
   "requireSpaceBeforeBinaryOperators": [
@@ -96,10 +79,5 @@
   "disallowTrailingWhitespace": true,
   "disallowKeywordsOnNewLine": ["else"],
   "requireLineFeedAtFileEnd": true,
-  "requireDotNotation": true,
-  "validateJSDoc": {
-    "checkParamNames": true,
-    "checkRedundantParams": true,
-    "requireParamTypes": true
-  }
+  "requireDotNotation": true
 }

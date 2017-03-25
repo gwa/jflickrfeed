@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
 	// Project configuration.
-	grunt.initConfig({
+	grunt.config.init({
 
 		pkg: grunt.file.readJSON('package.json'),
 
@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-jscs-checker');
+	grunt.loadNpmTasks('grunt-jscs');
 
 	grunt.registerTask(
 		'default',
