@@ -11,7 +11,7 @@
 (function($) {
 	$.fn.jflickrfeed = function(settings, callback) {
 		settings = $.extend(true, {
-			flickrbase: 'http://api.flickr.com/services/feeds/',
+			flickrbase: 'https://api.flickr.com/services/feeds/',
 			feedapi: 'photos_public.gne',
 			limit: 20,
 			qstrings: {
@@ -61,7 +61,7 @@
 						}
 
 						// Add Image Sizes
-						// http://www.flickr.com/services/api/misc.urls.html
+						// https://www.flickr.com/services/api/misc.urls.html
 						item.image_s = item.media.m.replace('_m', '_s');
 						item.image_t = item.media.m.replace('_m', '_t');
 						item.image_m = item.media.m.replace('_m', '_m');
